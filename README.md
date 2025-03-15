@@ -1,0 +1,2 @@
+# Fronted_Projects
+ Maine apne front-end projects mein HTML, CSS, aur JavaScript ka use karte hue popular platforms ke clones banaye hain. **Netflix Clone** ek modern aur responsive UI hai jo ek sleek movie browsing experience provide karta hai. **Amazon Clone** ek interactive e-commerce interface hai jisme dynamic shopping cart aur product listings shamil hain. **Spotify Clone** ek stylish music streaming UI hai jo interactive playlists aur smooth animations ke saath ek immersive experience deta hai.
