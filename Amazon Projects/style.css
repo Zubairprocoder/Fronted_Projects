@@ -1,0 +1,671 @@
+<<<<<<< HEAD
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+body {
+  background-color: #e3e6e6;
+}
+header {
+  background-color: #036344;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 1.5vw 1vw;
+}
+.logo {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.deliver {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.text-1 {
+  font-weight: 700;
+  font-size: 1.2vw;
+  color: rgb(204, 204, 204);
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+}
+select {
+  width: 5vw;
+}
+.op-1 {
+  background-color: #d4d4d4;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+  width: 35vw;
+}
+
+.search-bar select {
+  border: none;
+  padding: 14px 4px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 14px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background-color: #a9176f;
+  border: none;
+  padding: 22px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deliver > i {
+  font-size: 2vw;
+  color: white;
+}
+.search-bar button i {
+  color: white;
+  font-size: 16px;
+}
+select option {
+  font-size: 0.7vw;
+}
+
+select option[value="All"] {
+  font-size: 1.5vw;
+}
+
+.btn-lg > select {
+  width: 7vw;
+  height: 4vh;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.btn-lg.hover-1 {
+  position: relative;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-lg.hover-1:hover {
+  background-color: #085749; /* Change background color on hover */
+  transform: scale(1); /* Slightly enlarge the button */
+  border-radius: 8px; /* Add rounded corners on hover */
+}
+
+.btn-lg.hover-1:hover select {
+  color: #ffffff; /* Change text color of dropdown */
+  background-color: #036344; /* Change dropdown background color */
+}
+
+.text-3 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.text-4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.text-5 {
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.text-6 {
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.cart {
+  font-size: 4vw;
+  color: white;
+}
+.hover-1:hover {
+  border: 1px solid white;
+  padding: 4px 8px;
+}
+.top-sec {
+  display: flex;
+  align-items: center;
+  background-color: #085749;
+  padding: 12px 24px;
+  gap: 34px;
+  height: 8vh;
+}
+.menu {
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+}
+.p-1 {
+  font-size: 1.6vw;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.p-1 > i {
+  padding-right: 7px;
+}
+.p-0 {
+  font-size: 1.6vw;
+  color: rgb(255, 255, 255);
+}
+.nav-bg {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/images/nav-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  position: relative;
+}
+.cards {
+  position: absolute;
+  top: 45vw;
+}
+.cards-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 34px 24px;
+}
+.card {
+  width: 25vw;
+  height: 55vh;
+  background-color: #ffffff;
+}
+.c {
+  color: rgb(15, 17, 17);
+}
+.c-1 {
+  font-weight: 700;
+  font-size: 2vw;
+}
+.card img {
+  width: 24vw;
+  height: 40vh;
+  padding: 12px 12px;
+}
+.c-2 {
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: blue;
+  cursor: pointer;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5vw 1vw;
+}
+.img img {
+  width: 12vw;
+  height: 17vh;
+}
+.card-2 {
+  width: 35vw;
+  height: 55vh;
+  background-color: #ffffff;
+  padding: 1.5vw 12px;
+}
+.card:hover {
+  transform: scale(1.05); /* 5% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+img:hover {
+  transform: scale(1.08); /* 8% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.img img:hover {
+  transform: scale(1.1); /* 10% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+.card-b {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.card-b {
+  width: 95vw;
+  height: 40vh;
+  background-color: #ffffff;
+  margin: 30px 15px;
+}
+.btn-botm {
+  width: 100%;
+  height: 5vh;
+  background-color: #37475a;
+}
+.btn-botm p {
+  color: #ffffff;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  padding: 4px 0px;
+}
+footer {
+  background-color: #232f3e;
+}
+.footer-back {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 34px;
+  padding: 12px;
+}
+.fo-1 p {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  padding: 8px;
+}
+.fo-1 p a {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.fo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px 2px;
+}
+.fo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.fo-2 p a {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.copy p {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.fo-1 p a:hover,
+.fo-2 p a:hover,
+.copy p a:hover {
+  color: rgb(255, 255, 0); /* Hover color */
+  transform: scaleX(1.2); /* Width increase horizontally */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+}
+
+.fo-1 p a,
+.fo-2 p a,
+.copy p a {
+  transition: all 0.3s ease-in-out; /* Smoothness in non-hover state */
+}
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+body {
+  background-color: #e3e6e6;
+}
+header {
+  background-color: #036344;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 1.5vw 1vw;
+}
+.logo {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.deliver {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.text-1 {
+  font-weight: 700;
+  font-size: 1.2vw;
+  color: rgb(204, 204, 204);
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+}
+select {
+  width: 5vw;
+}
+.op-1 {
+  background-color: #d4d4d4;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+  width: 35vw;
+}
+
+.search-bar select {
+  border: none;
+  padding: 14px 4px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 14px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  padding: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background-color: #a9176f;
+  border: none;
+  padding: 22px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deliver > i {
+  font-size: 2vw;
+  color: white;
+}
+.search-bar button i {
+  color: white;
+  font-size: 16px;
+}
+select option {
+  font-size: 0.7vw;
+}
+
+select option[value="All"] {
+  font-size: 1.5vw;
+}
+
+.btn-lg > select {
+  width: 7vw;
+  height: 4vh;
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.btn-lg.hover-1 {
+  position: relative;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-lg.hover-1:hover {
+  background-color: #085749; /* Change background color on hover */
+  transform: scale(1); /* Slightly enlarge the button */
+  border-radius: 8px; /* Add rounded corners on hover */
+}
+
+.btn-lg.hover-1:hover select {
+  color: #ffffff; /* Change text color of dropdown */
+  background-color: #036344; /* Change dropdown background color */
+}
+
+.text-3 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.text-4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.text-5 {
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.text-6 {
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.cart {
+  font-size: 4vw;
+  color: white;
+}
+.hover-1:hover {
+  border: 1px solid white;
+  padding: 4px 8px;
+}
+.top-sec {
+  display: flex;
+  align-items: center;
+  background-color: #085749;
+  padding: 12px 24px;
+  gap: 34px;
+  height: 8vh;
+}
+.menu {
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+}
+.p-1 {
+  font-size: 1.6vw;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.p-1 > i {
+  padding-right: 7px;
+}
+.p-0 {
+  font-size: 1.6vw;
+  color: rgb(255, 255, 255);
+}
+.nav-bg {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/images/nav-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  position: relative;
+}
+.cards {
+  position: absolute;
+  top: 45vw;
+}
+.cards-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 34px 24px;
+}
+.card {
+  width: 25vw;
+  height: 55vh;
+  background-color: #ffffff;
+}
+.c {
+  color: rgb(15, 17, 17);
+}
+.c-1 {
+  font-weight: 700;
+  font-size: 2vw;
+}
+.card img {
+  width: 24vw;
+  height: 40vh;
+  padding: 12px 12px;
+}
+.c-2 {
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: blue;
+  cursor: pointer;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5vw 1vw;
+}
+.img img {
+  width: 12vw;
+  height: 17vh;
+}
+.card-2 {
+  width: 35vw;
+  height: 55vh;
+  background-color: #ffffff;
+  padding: 1.5vw 12px;
+}
+.card:hover {
+  transform: scale(1.05); /* 5% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+img:hover {
+  transform: scale(1.08); /* 8% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.img img:hover {
+  transform: scale(1.1); /* 10% enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+.card-b {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.card-b {
+  width: 95vw;
+  height: 40vh;
+  background-color: #ffffff;
+  margin: 30px 15px;
+}
+.btn-botm {
+  width: 100%;
+  height: 5vh;
+  background-color: #37475a;
+}
+.btn-botm p {
+  color: #ffffff;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  padding: 4px 0px;
+}
+footer {
+  background-color: #232f3e;
+}
+.footer-back {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 34px;
+  padding: 12px;
+}
+.fo-1 p {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  padding: 8px;
+}
+.fo-1 p a {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.fo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px 2px;
+}
+.fo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.fo-2 p a {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.copy p {
+  color: rgb(221, 221, 221);
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.fo-1 p a:hover,
+.fo-2 p a:hover,
+.copy p a:hover {
+  color: rgb(255, 255, 0); /* Hover color */
+  transform: scaleX(1.2); /* Width increase horizontally */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+}
+
+.fo-1 p a,
+.fo-2 p a,
+.copy p a {
+  transition: all 0.3s ease-in-out; /* Smoothness in non-hover state */
+}
+>>>>>>> b7bbd79b83565ad80de7df044000c942295f05b1

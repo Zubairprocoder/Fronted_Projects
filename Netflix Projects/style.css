@@ -1,0 +1,895 @@
+<<<<<<< HEAD
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-color: #2b1a1c;
+  width: 100%;
+  height: 100%;
+}
+/* Section 1 Netflix Website */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5vw;
+  padding: 0px 2vw;
+}
+img {
+  width: 20vw;
+  height: 15vh;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 70px;
+  width: 8vw;
+  height: 6.5vh;
+  font-size: 2vw;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease,
+    box-shadow 5s cubic-bezier(0.63, 0.45, 0.05, 0.55);
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.3);
+}
+.imagecontainer {
+  width: 95vw;
+  margin: 1.5vw 2vw;
+  height: 90vh;
+  border: none;
+  border: 1.2px solid white;
+  padding-left: 5vw;
+  border-radius: 30px;
+  background-image: url(/Images/main_image.jpg);
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover;
+  position: relative;
+}
+.img_1::before {
+  content: "";
+  position: absolute; /* Overlay covers the entire container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: black; /* Black overlay color */
+  opacity: 0.66; /* Adjust transparency of the overlay */
+  z-index: 1; /* Ensures it stays above the image */
+}
+.font {
+  position: absolute;
+  bottom: 8vw;
+  z-index: 10;
+  padding: 2vw 17vw;
+  color: rgb(255, 255, 255);
+  font-size: 2.9vw;
+  font-weight: 900;
+}
+.font-2 {
+  font-size: 2vw;
+  bottom: 4vw;
+  padding: 2vw 25vw;
+  font-weight: 500;
+}
+.font-3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.7vw;
+}
+.signIn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2vw;
+}
+.email-input {
+  width: 40vw;
+  height: 8vh;
+  padding: 10px 40px;
+  font-size: 2vw;
+  border: 2px solid #ccc; /* Default border */
+  border-radius: 70px; /* Rounded corners */
+  outline: none; /* Removes default focus outline */
+  transition: all 0.3s ease; /* Smooth transition effect */
+  background-color: #201b1d; /* Light background */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.email-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  background-color: cornflowerblue; /* Bright background on focus */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Glow effect on focus */
+}
+
+.email-input::placeholder {
+  font-style: italic; /* Placeholder style */
+  transition: color 0.3s ease; /* Smooth placeholder color transition */
+  color: rgb(255, 255, 255);
+}
+
+.email-input:focus::placeholder {
+  color: transparent; /* Hides placeholder on focus */
+}
+.email-input:hover {
+  border-color: #007bff; /* Blue border on hover */
+  background-color: rgba(
+    255,
+    105,
+    180,
+    0.644
+  ); /* Light blue background on hover */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Glow effect */
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  height: 9vh;
+}
+.btn-2 {
+  width: 20vw;
+  height: 9vh;
+  padding: 0vw 2vw 0vw;
+  background-color: #e50914;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+.top-sec {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 2px 40px;
+}
+h2 {
+  margin-right: 33vw;
+}
+h2 {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.custom-select {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 70px;
+  padding: 24px 45px;
+  color: white;
+  gap: 10px;
+}
+
+.custom-select select {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none;
+  padding-left: 5px;
+}
+
+.custom-select i {
+  color: white;
+}
+
+.caret {
+  margin-left: auto;
+}
+
+.sec-op,
+.sec-op-1 {
+  min-width: 150px;
+}
+
+.custom-select:hover {
+  background-color: #b60cd8;
+  color: blue;
+  transition: all 0.3s ease;
+}
+select:hover {
+  background-color: aqua;
+  color: green;
+}
+.sec-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cards img {
+  width: 13.1vw; /* Responsive width */
+  height: 26.2vw; /* Responsive height */
+  background-color: #f4f4f4; /* Light gray background */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover */
+}
+img {
+  z-index: 1;
+}
+.cards::before {
+  content: attr(data-number); /* Dynamically display number */
+  position: absolute;
+  top: 2vw;
+  right: 0;
+  left: 32px;
+  color: black;
+  font-size: 6vw;
+  font-weight: 900;
+  padding: 0vw 0.5vw;
+  border-radius: 0.5vw;
+  z-index: 20;
+}
+
+.cards {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+img:hover {
+  transform: scale(1.1); /* Zoom effect */
+  filter: brightness(0.8); /* Darken the image slightly */
+}
+.cards-text {
+  width: 25vw;
+  height: 25vh;
+  background-color: #201b1d;
+  color: whitesmoke;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: end;
+}
+.cards-text p {
+  margin: 0.3vw 2vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+.cards-text p svg {
+  padding-left: 3vw;
+}
+.cards-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 6px 2vw;
+  gap: 2vw;
+}
+svg {
+  align-self: self-end;
+  width: 12vw;
+  height: 9vh;
+}
+h3 {
+  padding-left: 4vw;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 2vw;
+}
+.cards-qs {
+  width: 90vw;
+  height: 9vh;
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 1vw;
+}
+.cards-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 2vw;
+}
+.text-1 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 2vw;
+}
+.top-qs {
+  color: RGB(255, 255, 255);
+  font-weight: 700;
+  font-size: 2vw;
+  padding-left: 5vw;
+  padding-top: 2vw;
+}
+.cards-qs:hover {
+  background-color: rgba(
+    155,
+    12,
+    190,
+    0.774
+  ); /* Changes background color on hover */
+  transform: scale(1.05); /* Slightly enlarges the card */
+  transition: all 0.3s ease; /* Adds smooth transition */
+}
+
+.cards-questions:hover {
+  transform: translateY(-10px); /* Moves the element slightly upward */
+  transition: all 0.3s ease; /* Adds smooth transition */
+}
+
+.text-1:hover {
+  color: #ff9900; /* Changes text color on hover */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds shadow effect */
+  transition: all 0.3s ease;
+}
+
+.top-qs:hover {
+  color: #00ffcc; /* Changes text color on hover */
+  letter-spacing: 2px; /* Adds spacing between letters */
+  transition: all 0.3s ease;
+}
+svg:hover {
+  fill: #00ffcc; /* Changes the fill color of the SVG */
+  transform: scale(1.2); /* Scales the SVG slightly */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+svg path:hover {
+  fill: #ff9900; /* Changes the fill color of the SVG path */
+  transition: all 0.3s ease; /* Smooth transition for the path */
+}
+.foot-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+.btn-foot {
+  width: 20vw;
+  height: 9vh;
+  background-color: #c11119;
+  border: none;
+  border-radius: 40px;
+  font-size: 3vw;
+  margin-top: 2vw;
+  color: RGB(255, 254, 254);
+}
+.foot-1 {
+  text-align: center;
+  color: RGB(242, 242, 242);
+  font-size: 1.8vw;
+  padding-bottom: 6px;
+}
+.top-qs-1 a {
+  color: #ff9900;
+}
+.top-qs-1 {
+  padding-left: 4vw;
+  padding-top : 6px;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw ;
+}
+a {
+  color: rgba(255, 255, 255, 0.897);
+  font-size: 1.5vw;
+}
+.links-qs{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 23px;
+}
+a:hover {
+  color: #00ffcc; /* Changes text color */
+  text-decoration: none; /* Removes underline */
+  background-color: rgba(0, 0, 0, 0.1); /* Adds a background highlight */
+  padding: 2px 5px; /* Adds some padding to make the highlight more visible */
+  border-radius: 5px; /* Rounds the corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+.language-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid #fff; /* White border */
+  border-radius: 40px; /* Makes the button rounded */
+  background-color: transparent; /* Transparent background */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.2vw;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition effect */
+  margin-left: 4vw;
+}
+
+.language-button .icon {
+  font-weight: bold; /* Bold for the symbol */
+}
+
+.language-button .arrow {
+  font-size: 1.2vw; /* Slightly smaller arrow */
+}
+
+.language-button:hover {
+  background-color: #b60cd8; /* Add a darker background on hover */
+  border-color: #ccc; /* Change border color on hover */
+}
+.net {
+  color: azure;
+  margin-top: 1vw;
+  padding-left: 4vw;
+  font-size: 1.5vw;
+}
+footer {
+  background-color: #201b1d;
+}
+=======
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-color: #2b1a1c;
+  width: 100%;
+  height: 100%;
+}
+/* Section 1 Netflix Website */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5vw;
+  padding: 0px 2vw;
+}
+img {
+  width: 20vw;
+  height: 15vh;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 70px;
+  width: 8vw;
+  height: 6.5vh;
+  font-size: 2vw;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease,
+    box-shadow 5s cubic-bezier(0.63, 0.45, 0.05, 0.55);
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.3);
+}
+.imagecontainer {
+  width: 95vw;
+  margin: 1.5vw 2vw;
+  height: 90vh;
+  border: none;
+  border: 1.2px solid white;
+  padding-left: 5vw;
+  border-radius: 30px;
+  background-image: url(/Images/main_image.jpg);
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover;
+  position: relative;
+}
+.img_1::before {
+  content: "";
+  position: absolute; /* Overlay covers the entire container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: black; /* Black overlay color */
+  opacity: 0.66; /* Adjust transparency of the overlay */
+  z-index: 1; /* Ensures it stays above the image */
+}
+.font {
+  position: absolute;
+  bottom: 8vw;
+  z-index: 10;
+  padding: 2vw 17vw;
+  color: rgb(255, 255, 255);
+  font-size: 2.9vw;
+  font-weight: 900;
+}
+.font-2 {
+  font-size: 2vw;
+  bottom: 4vw;
+  padding: 2vw 25vw;
+  font-weight: 500;
+}
+.font-3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.7vw;
+}
+.signIn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2vw;
+}
+.email-input {
+  width: 40vw;
+  height: 8vh;
+  padding: 10px 40px;
+  font-size: 2vw;
+  border: 2px solid #ccc; /* Default border */
+  border-radius: 70px; /* Rounded corners */
+  outline: none; /* Removes default focus outline */
+  transition: all 0.3s ease; /* Smooth transition effect */
+  background-color: #201b1d; /* Light background */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.email-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  background-color: cornflowerblue; /* Bright background on focus */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Glow effect on focus */
+}
+
+.email-input::placeholder {
+  font-style: italic; /* Placeholder style */
+  transition: color 0.3s ease; /* Smooth placeholder color transition */
+  color: rgb(255, 255, 255);
+}
+
+.email-input:focus::placeholder {
+  color: transparent; /* Hides placeholder on focus */
+}
+.email-input:hover {
+  border-color: #007bff; /* Blue border on hover */
+  background-color: rgba(
+    255,
+    105,
+    180,
+    0.644
+  ); /* Light blue background on hover */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Glow effect */
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  height: 9vh;
+}
+.btn-2 {
+  width: 20vw;
+  height: 9vh;
+  padding: 0vw 2vw 0vw;
+  background-color: #e50914;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+.top-sec {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 2px 40px;
+}
+h2 {
+  margin-right: 33vw;
+}
+h2 {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.custom-select {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 70px;
+  padding: 24px 45px;
+  color: white;
+  gap: 10px;
+}
+
+.custom-select select {
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none;
+  padding-left: 5px;
+}
+
+.custom-select i {
+  color: white;
+}
+
+.caret {
+  margin-left: auto;
+}
+
+.sec-op,
+.sec-op-1 {
+  min-width: 150px;
+}
+
+.custom-select:hover {
+  background-color: #b60cd8;
+  color: blue;
+  transition: all 0.3s ease;
+}
+select:hover {
+  background-color: aqua;
+  color: green;
+}
+.sec-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cards img {
+  width: 13.1vw; /* Responsive width */
+  height: 26.2vw; /* Responsive height */
+  background-color: #f4f4f4; /* Light gray background */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover */
+}
+img {
+  z-index: 1;
+}
+.cards::before {
+  content: attr(data-number); /* Dynamically display number */
+  position: absolute;
+  top: 2vw;
+  right: 0;
+  left: 32px;
+  color: black;
+  font-size: 6vw;
+  font-weight: 900;
+  padding: 0vw 0.5vw;
+  border-radius: 0.5vw;
+  z-index: 20;
+}
+
+.cards {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+img:hover {
+  transform: scale(1.1); /* Zoom effect */
+  filter: brightness(0.8); /* Darken the image slightly */
+}
+.cards-text {
+  width: 25vw;
+  height: 25vh;
+  background-color: #201b1d;
+  color: whitesmoke;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: end;
+}
+.cards-text p {
+  margin: 0.3vw 2vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+.cards-text p svg {
+  padding-left: 3vw;
+}
+.cards-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 6px 2vw;
+  gap: 2vw;
+}
+svg {
+  align-self: self-end;
+  width: 12vw;
+  height: 9vh;
+}
+h3 {
+  padding-left: 4vw;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 2vw;
+}
+.cards-qs {
+  width: 90vw;
+  height: 9vh;
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 1vw;
+}
+.cards-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 2vw;
+}
+.text-1 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 2vw;
+}
+.top-qs {
+  color: RGB(255, 255, 255);
+  font-weight: 700;
+  font-size: 2vw;
+  padding-left: 5vw;
+  padding-top: 2vw;
+}
+.cards-qs:hover {
+  background-color: rgba(
+    155,
+    12,
+    190,
+    0.774
+  ); /* Changes background color on hover */
+  transform: scale(1.05); /* Slightly enlarges the card */
+  transition: all 0.3s ease; /* Adds smooth transition */
+}
+
+.cards-questions:hover {
+  transform: translateY(-10px); /* Moves the element slightly upward */
+  transition: all 0.3s ease; /* Adds smooth transition */
+}
+
+.text-1:hover {
+  color: #ff9900; /* Changes text color on hover */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds shadow effect */
+  transition: all 0.3s ease;
+}
+
+.top-qs:hover {
+  color: #00ffcc; /* Changes text color on hover */
+  letter-spacing: 2px; /* Adds spacing between letters */
+  transition: all 0.3s ease;
+}
+svg:hover {
+  fill: #00ffcc; /* Changes the fill color of the SVG */
+  transform: scale(1.2); /* Scales the SVG slightly */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+svg path:hover {
+  fill: #ff9900; /* Changes the fill color of the SVG path */
+  transition: all 0.3s ease; /* Smooth transition for the path */
+}
+.foot-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+.btn-foot {
+  width: 20vw;
+  height: 9vh;
+  background-color: #c11119;
+  border: none;
+  border-radius: 40px;
+  font-size: 3vw;
+  margin-top: 2vw;
+  color: RGB(255, 254, 254);
+}
+.foot-1 {
+  text-align: center;
+  color: RGB(242, 242, 242);
+  font-size: 1.8vw;
+  padding-bottom: 6px;
+}
+.top-qs-1 a {
+  color: #ff9900;
+}
+.top-qs-1 {
+  padding-left: 4vw;
+  padding-top : 6px;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw ;
+}
+a {
+  color: rgba(255, 255, 255, 0.897);
+  font-size: 1.5vw;
+}
+.links-qs{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 23px;
+}
+a:hover {
+  color: #00ffcc; /* Changes text color */
+  text-decoration: none; /* Removes underline */
+  background-color: rgba(0, 0, 0, 0.1); /* Adds a background highlight */
+  padding: 2px 5px; /* Adds some padding to make the highlight more visible */
+  border-radius: 5px; /* Rounds the corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+.language-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid #fff; /* White border */
+  border-radius: 40px; /* Makes the button rounded */
+  background-color: transparent; /* Transparent background */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.2vw;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition effect */
+  margin-left: 4vw;
+}
+
+.language-button .icon {
+  font-weight: bold; /* Bold for the symbol */
+}
+
+.language-button .arrow {
+  font-size: 1.2vw; /* Slightly smaller arrow */
+}
+
+.language-button:hover {
+  background-color: #b60cd8; /* Add a darker background on hover */
+  border-color: #ccc; /* Change border color on hover */
+}
+.net {
+  color: azure;
+  margin-top: 1vw;
+  padding-left: 4vw;
+  font-size: 1.5vw;
+}
+footer {
+  background-color: #201b1d;
+}
+>>>>>>> b7bbd79b83565ad80de7df044000c942295f05b1

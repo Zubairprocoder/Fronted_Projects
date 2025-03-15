@@ -1,0 +1,1391 @@
+<<<<<<< HEAD
+/* For screens from 320px to 425px */
+@media (min-width: 0px) and (max-width: 320px) {
+  nav {
+    height: 7vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 55vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 14vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 3px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    height: 26vh;
+    width: 30vw;
+    padding: 1.8vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 6vh;
+    width: 10vw;
+  }
+  .card {
+    width: 23vw;
+    height: 25vh;
+    padding: 1.5vw 0vw;
+  }
+  .card img {
+    height: 15vh;
+    width: 22vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 18vh;
+    margin: 6px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 6vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 4px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 5px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  nav {
+    height: 8vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 55vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 12vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 6px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 27vh;
+    padding: 1.3vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 6vh;
+    width: 10vw;
+  }
+  .card {
+    width: 23vw;
+    height: 26vh;
+    padding: 1vw 0vw;
+  }
+  .card img {
+    height: 15vh;
+    width: 22vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 30vh;
+    margin: 10px 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 7vw;
+    height: 12vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 6px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 5px;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  nav {
+    height: 7vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 50vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 12vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 6px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2.5vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    width: 26vw;
+    height: 32vh;
+    padding: 1.3vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 8vh;
+    width: 8vw;
+  }
+  .card {
+    width: 20vw;
+    height: 28.5vh;
+    padding: 1vw 0vw;
+  }
+  .card img {
+    height: 18vh;
+    width: 18vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 20vh;
+    margin: 6px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 8vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 6px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 6px;
+  }
+}
+
+/* For screens from 425px to 768px */
+@media (min-width: 426px) and (max-width: 768px) {
+  nav {
+    height: 7vh;
+  }
+  .cards {
+    top: 40vw;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar select {
+    width: 7vw;
+    height: 8vh;
+  }
+  .search-bar button {
+    padding: 22px 9px;
+  }
+  .nav-bg {
+    height: 60vh;
+  }
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 45vh;
+    padding: 1.5vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 1vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 8vw;
+  }
+  .search-bar {
+    width: 37vw;
+    height: 5vh;
+  }
+  .card {
+    width: 25vw;
+    height: 45vh;
+    padding: 1.3vw 1.2vw;
+  }
+  .card img {
+    width: 22vw;
+    height: 30vh;
+  }
+  .card-b {
+    height: 17vh;
+    margin: 11px;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 13vh;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 6vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+  .fo-1 {
+    gap: 6px;
+  }
+}
+
+/* For screens from 768px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    height: 8vh;
+  }
+  .cards {
+    top: 40vw;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar {
+    height: 5vh;
+  }
+  .search-bar button {
+    padding: 23px 20px;
+  }
+  .nav-bg {
+    height: 60vh;
+  }
+
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 50vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 2vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 8vw;
+  }
+  .card {
+    width: 25vw;
+    height: 52vh;
+    padding: 1.2vw 1vw;
+  }
+  .card img {
+    width: 22vw;
+    height: 36vh;
+  }
+  .card-b {
+    height: 18vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 14vh;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 6vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+  .fo-1 {
+    gap: 12px;
+  }
+}
+
+/* For screens from 1024px to 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  nav {
+    height: 8vh;
+  }
+  .cards {
+    top: 50vw;
+  }
+  .logo {
+    font-size: 2.5vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar select {
+    width: 6vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar button {
+    padding: 22px 24px;
+  }
+  .btn-lg > select {
+    width: 8vw;
+    font-size: 1.5vw;
+  }
+  .nav-bg {
+    height: 80vh;
+  }
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 23vw;
+    height: 40vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 22px;
+    gap: 22px;
+  }
+  .img img {
+    height: 9vh;
+    width: 6vw;
+  }
+  .card {
+    width: 28vw;
+    height: 53vh;
+    padding: 1.3vw 1vw;
+  }
+  .card img {
+    height: 35vh;
+    margin: 1.3vw 1vw;
+  }
+  .card-b {
+    height: 20vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 15vh;
+  }
+  .btn-botm {
+    padding: 4px 0px;
+    text-align: center;
+    height: 4vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+}
+
+/* For screens from 1440px to 2560px */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  nav {
+    height: 8vh;
+  }
+  .search-bar {
+    height: 5vh;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 1.5vw;
+    height: 5vh;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg > select {
+    width: 8vw;
+    font-size: 1.5vw;
+  }
+  .search-bar select {
+    height: 5vh;
+    font-size: 2vw;
+    width: 4vw;
+  }
+  .search-bar button {
+    height: 5vh;
+    width: 5vw;
+  }
+
+  .cards {
+    top: 35vw;
+  }
+  .logo {
+    font-size: 2.5vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .nav-bg {
+    height: 50vh;
+  }
+  .top-sec {
+    height: 5vh;
+    gap: 3px 2vw;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 29vw;
+    height: 43vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 2vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 10vw;
+  }
+  .card {
+    width: 28vw;
+    height: 45vh;
+    padding: 1.3vw 1vw;
+  }
+  .card img {
+    height: 30vh;
+    margin: 1.3vw 1vw;
+  }
+  .card-b {
+    height: 15vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 12vh;
+  }
+  .btn-botm {
+    padding: 4px 0px;
+    text-align: center;
+    height: 4vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+}
+
+/* For screens 2560px and above */
+@media (min-width: 2560px) {
+  /* Add specific styles for larger screens if needed */
+}
+=======
+/* For screens from 320px to 425px */
+@media (min-width: 0px) and (max-width: 320px) {
+  nav {
+    height: 7vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 55vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 14vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 3px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    height: 26vh;
+    width: 30vw;
+    padding: 1.8vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 6vh;
+    width: 10vw;
+  }
+  .card {
+    width: 23vw;
+    height: 25vh;
+    padding: 1.5vw 0vw;
+  }
+  .card img {
+    height: 15vh;
+    width: 22vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 18vh;
+    margin: 6px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 6vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 4px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 5px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  nav {
+    height: 8vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 55vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 12vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 6px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 27vh;
+    padding: 1.3vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 6vh;
+    width: 10vw;
+  }
+  .card {
+    width: 23vw;
+    height: 26vh;
+    padding: 1vw 0vw;
+  }
+  .card img {
+    height: 15vh;
+    width: 22vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 30vh;
+    margin: 10px 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 7vw;
+    height: 12vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 6px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 5px;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  nav {
+    height: 7vh;
+    gap: 2px;
+  }
+  .cards {
+    top: 50vw;
+  }
+  .deliver {
+    gap: 4px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5,
+  .text-6 {
+    font-size: 1.5vw;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar {
+    width: 48vw;
+    height: 5vh;
+  }
+  .search-bar select {
+    width: 12vw;
+    height: 9vh;
+  }
+  .search-bar button {
+    padding: 22px 6px;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 6px;
+    height: 5vh;
+    width: 12vw;
+  }
+  .nav-bg {
+    height: 45vh;
+  }
+  .top-sec {
+    height: 3vh;
+    gap: 1px 12px;
+    padding: 2px 12px;
+  }
+  .cards-top {
+    gap: 2.5vw 12px;
+    grid-template-columns: 1fr;
+  }
+  .card-2 {
+    width: 26vw;
+    height: 32vh;
+    padding: 1.3vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 1.3vw 1vw;
+  }
+  .img img {
+    height: 8vh;
+    width: 8vw;
+  }
+  .card {
+    width: 20vw;
+    height: 28.5vh;
+    padding: 1vw 0vw;
+  }
+  .card img {
+    height: 18vh;
+    width: 18vw;
+    padding: 1.2vw 1vw;
+  }
+  .card-b {
+    height: 20vh;
+    margin: 6px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 8vh;
+  }
+  .btn-lg > select {
+    width: 12vw;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 3.5vh;
+  }
+  .footer-back {
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 12px;
+    gap: 6px;
+  }
+  .copy {
+    padding: 6px;
+  }
+  .fo-1 {
+    gap: 0.2px;
+    padding: 2px;
+  }
+  .fo-1 p {
+    padding: 6px;
+  }
+}
+
+/* For screens from 425px to 768px */
+@media (min-width: 426px) and (max-width: 768px) {
+  nav {
+    height: 7vh;
+  }
+  .cards {
+    top: 40vw;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar select {
+    width: 7vw;
+    height: 8vh;
+  }
+  .search-bar button {
+    padding: 22px 9px;
+  }
+  .nav-bg {
+    height: 60vh;
+  }
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 45vh;
+    padding: 1.5vw 1vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 1vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 8vw;
+  }
+  .search-bar {
+    width: 37vw;
+    height: 5vh;
+  }
+  .card {
+    width: 25vw;
+    height: 45vh;
+    padding: 1.3vw 1.2vw;
+  }
+  .card img {
+    width: 22vw;
+    height: 30vh;
+  }
+  .card-b {
+    height: 17vh;
+    margin: 11px;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 13vh;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 6vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+  .fo-1 {
+    gap: 6px;
+  }
+}
+
+/* For screens from 768px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    height: 8vh;
+  }
+  .cards {
+    top: 40vw;
+  }
+  .logo {
+    font-size: 2vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar {
+    height: 5vh;
+  }
+  .search-bar button {
+    padding: 23px 20px;
+  }
+  .nav-bg {
+    height: 60vh;
+  }
+
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 25vw;
+    height: 50vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 2vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 8vw;
+  }
+  .card {
+    width: 25vw;
+    height: 52vh;
+    padding: 1.2vw 1vw;
+  }
+  .card img {
+    width: 22vw;
+    height: 36vh;
+  }
+  .card-b {
+    height: 18vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 14vh;
+  }
+  .btn-botm {
+    padding: 2px 0px;
+    text-align: center;
+    height: 6vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+  .fo-1 {
+    gap: 12px;
+  }
+}
+
+/* For screens from 1024px to 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  nav {
+    height: 8vh;
+  }
+  .cards {
+    top: 50vw;
+  }
+  .logo {
+    font-size: 2.5vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .search-bar select {
+    width: 6vw;
+  }
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .search-bar button {
+    padding: 22px 24px;
+  }
+  .btn-lg > select {
+    width: 8vw;
+    font-size: 1.5vw;
+  }
+  .nav-bg {
+    height: 80vh;
+  }
+  .top-sec {
+    height: 5vh;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 23vw;
+    height: 40vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    padding: 22px;
+    gap: 22px;
+  }
+  .img img {
+    height: 9vh;
+    width: 6vw;
+  }
+  .card {
+    width: 28vw;
+    height: 53vh;
+    padding: 1.3vw 1vw;
+  }
+  .card img {
+    height: 35vh;
+    margin: 1.3vw 1vw;
+  }
+  .card-b {
+    height: 20vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 15vh;
+  }
+  .btn-botm {
+    padding: 4px 0px;
+    text-align: center;
+    height: 4vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+}
+
+/* For screens from 1440px to 2560px */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  nav {
+    height: 8vh;
+  }
+  .search-bar {
+    height: 5vh;
+  }
+  .search-bar input:placeholder-shown {
+    font-size: 1.5vw;
+    height: 5vh;
+  }
+  .search-bar select option {
+    font-size: 0.7vw;
+  }
+
+  .search-bar select option[value="All"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg select option[value="English"] {
+    font-size: 1.5vw;
+  }
+  .btn-lg > select {
+    width: 8vw;
+    font-size: 1.5vw;
+  }
+  .search-bar select {
+    height: 5vh;
+    font-size: 2vw;
+    width: 4vw;
+  }
+  .search-bar button {
+    height: 5vh;
+    width: 5vw;
+  }
+
+  .cards {
+    top: 35vw;
+  }
+  .logo {
+    font-size: 2.5vw;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 1.2vw;
+  }
+  .nav-bg {
+    height: 50vh;
+  }
+  .top-sec {
+    height: 5vh;
+    gap: 3px 2vw;
+  }
+  .cards-top {
+    gap: 2vw 12px;
+  }
+  .card-2 {
+    width: 29vw;
+    height: 43vh;
+    padding: 1.2vw 1.5vw;
+  }
+  .c {
+    padding: 2px 6px;
+  }
+  .images {
+    margin: 2vw 1vw;
+  }
+  .img img {
+    height: 12vh;
+    width: 10vw;
+  }
+  .card {
+    width: 28vw;
+    height: 45vh;
+    padding: 1.3vw 1vw;
+  }
+  .card img {
+    height: 30vh;
+    margin: 1.3vw 1vw;
+  }
+  .card-b {
+    height: 15vh;
+  }
+  .card-b img {
+    width: 4vw;
+    height: 12vh;
+  }
+  .btn-botm {
+    padding: 4px 0px;
+    text-align: center;
+    height: 4vh;
+  }
+  .footer-back {
+    padding: 2vw 12px;
+  }
+}
+
+/* For screens 2560px and above */
+@media (min-width: 2560px) {
+  /* Add specific styles for larger screens if needed */
+}
+>>>>>>> b7bbd79b83565ad80de7df044000c942295f05b1
