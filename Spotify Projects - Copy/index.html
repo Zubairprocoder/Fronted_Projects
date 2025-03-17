@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/css/Style.css" />
+    <link
+      rel="shortcut icon"
+      href="/Assests/Images/Favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/Media_Quers.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="sec-nav">
+          <div class="hamburger">
+            <img src="/Assests/SVG/hamburgur.svg" alt="hamburgur" />
+          </div>
+          <div class="logo">
+            <img src="/Assests/SVG/logo.svg" alt="logo" />
+          </div>
+          <div class="home-sec-2">
+            <div class="home-ico">
+              <img src="/Assests/SVG/Home.svg" alt="home-ico" />
+            </div>
+            <div class="input-sec">
+              <button class="btn search-btn" aria-label="Search">
+                <i class="fa fa-search"></i>
+              </button>
+              <input
+                type="text"
+                id="search"
+                placeholder="What do you want want to play?"
+              />
+              <div id="suggestions" class="suggestions-container"></div>
+              <div class="btn-sec">
+                <button class="btn btn-a">Ctrl</button>
+                <button class="btn btn-a">K</button>
+              </div>
+              <div class="sec-c">
+                <div class="border"></div>
+                <div class="browser">
+                  <img src="/Assests/SVG/browser.svg" alt="browser" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec-login">
+          <div class="sign">
+            <p class="text-a">Install</p>
+            <p class="text-a">Sign up</p>
+          </div>
+          <button class="btn-c text-b">Log in</button>
+        </div>
+        <section class="section-a">
+          <div class="sec-3">
+            <div class="text-sec">
+              <p class="text-a">Premium</p>
+              <p class="text-a">Support</p>
+              <p class="text-a">Download</p>
+              <div class="border"></div>
+            </div>
+            <div class="text-sec-b">
+              <div class="img">
+                <img
+                  class="text-a"
+                  src="/Assests/SVG/download.svg"
+                  alt="download"
+                />
+              </div>
+              <p class="text-a">Install</p>
+              <p class="text-a">Sign up</p>
+            </div>
+            <button class="btn-c text-b">Log in</button>
+          </div>
+          <div class="svg-icon">
+            <img class="svg-img" src="/Assests/SVG/icon.svg" alt="ico" />
+            <div class="sec-end">
+              <div class="text-end">
+                <div class="p-1">
+                  <p class="text-a">Premium</p>
+                  <div>
+                    <img
+                      class="text-a"
+                      src="/Assests/SVG/icon_btn.svg"
+                      alt="icon"
+                    />
+                  </div>
+                </div>
+                <div class="p-1">
+                  <p class="text-a">Support</p>
+                  <div>
+                    <img
+                      class="text-a"
+                      src="/Assests/SVG/icon_btn.svg"
+                      alt="icon"
+                    />
+                  </div>
+                </div>
+                <div class="p-1">
+                  <p class="text-a">Download</p>
+                  <div>
+                    <img
+                      class="text-a"
+                      src="/Assests/SVG/icon_btn.svg"
+                      alt="icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="section-1">
+          <div class="close">
+            <img class="close" src="/Assests/SVG/close.svg" alt="close" />
+          </div>
+          <div class="sec-a">
+            <div class="sec-ic">
+              <img src="/Assests/SVG/library-icon.svg" alt="library-icon" />
+              <p class="text-c">Your Library</p>
+            </div>
+            <div class="sec-svg"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="songslist">
+            <ul></ul>
+          </div>
+          <div class="section-c">
+            <a class="text-d" href="Legal">Legal</a>
+            <a class="text-d" href="Safety&PrivacyCenter"
+              >Safety&PrivacyCenter</a
+            >
+            <a class="text-d" href="PrivacyPolicy">PrivacyPolicy</a>
+            <a class="text-d" href="Cookies">Cookies</a>
+            <a class="text-d" href="About">AboutAds</a>
+            <a class="text-d" href="Accessibility">Accessibility</a>
+          </div>
+          <div class="btn-end">
+            <a class="text-e" href="Cookies">Cookies</a>
+            <button class="btn-c text-b btn-e">
+              <img src="/Assests/SVG/btn-svg.svg" alt="btn-svg" />
+              <p>English</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-2">
+          <div class="section-a1">
+            <h1 class="p-1">Popular artists</h1>
+            <p class="p-1 p-a">Show all</p>
+          </div>
+          <div class="cardcontainer"></div>
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songsinfo"></div>
+              <div class="songsbutton">
+                <img
+                  id="previous"
+                  src="/Assests/SVG/Preview.svg"
+                  alt="Preview"
+                />
+                <img id="play" src="/Assests/SVG/play.svg" alt="play" />
+                <img id="next" src="/Assests/SVG/next.svg" alt="next" />
+              </div>
+              <div class="timevol">
+                <div class="songstime"></div>
+                <div class="volume">
+                  <img src="/Assests/SVG/volume.svg" alt="volume" />
+                  <div class="range">
+                    <input type="range" name="volume" aria-label="Volume" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="section-container">
+              <div class="section-f1">
+                <a class="f1-white" href="Company">Company</a>
+
+                <a class="f2" href="About">About</a>
+                <a class="f2" href="Jobs">Jobs</a>
+                <a class="f2" href="For the record">For the record</a>
+              </div>
+              <div class="section-f1">
+                <a class="f1-white" href="Company">Company</a>
+                <a class="f2" href="About">For Artist</a>
+                <a class="f2" href="Jobs">Developers</a>
+                <a class="f2" href="For the record">Advertising</a>
+                <a class="f2" href="For the record">Investors</a>
+                <a class="f2" href="For the record">Vendors</a>
+              </div>
+              <div class="section-f1">
+                <a class="f1-white" href="Company">Company</a>
+                <a class="f2" href="About">Support</a>
+                <a class="f2" href="Jobs">Free Mobile</a>
+                <a class="f2" href="For the record">App</a>
+              </div>
+              <div class="section-f1">
+                <a class="f1-white" href="Company">Company</a>
+                <a class="f2" href="About">Premium Individual</a>
+                <a class="f2" href="Jobs">Premium Duo</a>
+                <a class="f2" href="For the record">Premium Family</a>
+                <a class="f2" href="For the record">Premium Student</a>
+                <a class="f2" href="For the record">Spotify Free</a>
+              </div>
+              <div class="section-f1 svg-f">
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+              </div>
+            </div>
+          </footer>
+          <div class="b-white"></div>
+          <div class="copyright">
+            &copy; 2025 Spotify AB
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            By Zubair Freelancer
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img width="40" src="/Assests/Images/zubair.jpg" alt="zubair" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="/js/Script.js"></script>
+</html>
